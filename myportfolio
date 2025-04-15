@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Durga Kadam | Software Engineer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .timeline-entry:hover {
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+    }
+    .bg-brand-light-blue {
+      background-color: #b8d4e1;
+    }
+    .bg-faint-blue {
+      background-color: #e1f3f7; /* Soft light blue */
+    }
+    .bg-light-gray {
+      background-color: #f4f4f4; /* Soft light gray */
+    }
+    .text-soft-gray {
+      color: #9ca3af; /* Light gray */
+    }
+    .text-soft-blue {
+      color: #a2c2d8; /* Soft pastel blue */
+    }
+  </style>
+</head>
+
+<body class="text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-900">Durga Kadam</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-blue-400">About</a>
+        <a href="#skills" class="hover:text-blue-400">Skills</a>
+        <a href="#projects" class="hover:text-blue-400">Projects</a>
+        <a href="#certifications" class="hover:text-blue-400">Certifications</a>
+        <a href="#qualifications" class="hover:text-blue-400">Qualifications</a>
+        <a href="#contact" class="hover:text-blue-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="bg-blue-600 text-white py-20">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <img src="download (1).jpg" alt="" class="mx-auto rounded-full w-40 h-40 object-cover border-4 border-white mb-6">
+      <h2 class="text-4xl font-bold mb-4">Hi, I'm Durga Kadam</h2>
+      <p class="text-xl">Software Engineering Student | MIT Academy of Engineering</p>
+    </div>
+  </section>
+
+
+  <!-- About Me -->
+  <section id="about" class="py-16">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold mb-6 text-blue-500"><i class="fas fa-user mr-2"></i>About Me</h3>
+      <p class="text-lg leading-relaxed text-gray-700">
+        I’m  a first-year Software Engineering student at MIT Academy of Engineering, Pune. I have a deep interest in technology, design thinking, app development, and sustainability.
+
+I enjoy problem-solving and coding, with experience in HTML, CSS, C, and Python. I have worked on projects like KisanCare App, a basic search engine using Linux, and my personal portfolio website.
+
+I am always eager to learn new technologies, enhance my computer knowledge, and improve my social skills. My goal is to develop innovative tech solutions that make a positive impact.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 bg-brand-light-blue">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold mb-6 text-blue-500"><i class="fas fa-tools">Skills</i></h3>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-center">
+        <div class="bg-light-gray shadow p-4 rounded-xl">HTML</div>
+        <div class="bg-light-gray shadow p-4 rounded-xl">CSS</div>
+        <div class="bg-light-gray shadow p-4 rounded-xl">C</div>
+        <div class="bg-light-gray shadow p-4 rounded-xl">Python</div>
+        <div class="bg-light-gray shadow p-4 rounded-xl">Problem Solving</div>
+        <div class="bg-light-gray shadow p-4 rounded-xl">Linux Shell Scripting</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16">
+    <div class="max-w-5xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold mb-6 text-blue-500"><i class="fas fa-code"></i>Projects</h3>
+      <div class="space-y-8">
+        <div class="bg-brand-white p-6 rounded-xl shadow">
+          <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+            <div>
+              <h4 class="text-xl font-bold text-blue-500">
+                <a href="https://previewer.adalo.com/eb21aafd-da7a-4391-9286-600fe1f7229f?_gl=1%2A1szpxhs%2A_gcl_aw%2AR0NMLjE3MzEwNjk2NTMuQ2owS0NRaUFpcmU1QmhDTkFSSXNBTTUzSzFnbEx2Z3lMVlFZQjQzNXEwOG5fVk9QLU5manBVTWxIWW9DN1pLZk8xLUxNVWdsT2lPUGZ4WWFBczFDRUFMd193Y0I.%2A_gcl_au%2AMjEyMzQzNzcxNC4xNzMwMTg4Mzg5%2A_ga%2AMTU0MzAzNzkyNC4xNzMwMTg4Mzk5%2A_ga_SWT45DV35L%2AMTczMTQ5NzIwMy4zLjEuMTczMTUwMDY3Mi41NS4wLjA.&target=998942e43ce445e7a8ed43cc51862f42&params={}" target="_blank" class="hover:underline text-soft-blue">
+                  KisanCare App
+                </a>
+              </h4>
+              <p class="mt-2 text-gray-700">A smart plant disease detection app that helps farmers identify diseases using image processing and machine learning.</p>
+            </div>
+          </div>
+            <div>
+              <h4 class="text-xl font-bold text-blue-500">
+                <a href="" target="_blank" class="hover:underline text-soft-blue">
+                  Personal Portfolio Website
+                </a>
+              </h4>
+              <p class="mt-2 text-gray-700">A clean and responsive portfolio website built using HTML and CSS to showcase my skills and projects.</p>
+            </div>
+          <div>
+            <h4 class="text-xl font-bold text-blue-500">
+              <a href="Demonstration_on_Search_Engine_using_Linux_OS[1].pptx" target="_blank" class="hover:underline text-soft-blue">
+                Search Engine
+              </a>
+            </h4>
+            <p class="mt-2 text-gray-700">Basic Search Engine using Linux.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-3xl font-bold b"><i class="fas fa-award mr-2"></i>Certifications</h3>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li class="flex items-center justify-between bg-white p-4 rounded-xl shadow">
+          <span>Chatgpt & Ai tools Certification – be10x</span>
+          <a href="be10x.pdf" target="_blank" class="bg-blue-600 text-white text-sm px-3 py-1 rounded-full hover:bg-pink-600 transition">
+            View Certificate
+          </a>
+        </li>
+        <li class="flex items-center justify-between bg-white p-4 rounded-xl shadow">
+          <span>Kali Linux Tutorial-Simplilearn</span>
+          <a href="certificate 1.pdf" target="_blank" class="bg-blue-600 text-white text-sm px-3 py-1 rounded-full hover:bg-pink-600 transition">
+            View Certificate
+          </a>
+        </li>
+        <li class="flex items-center justify-between bg-white p-4 rounded-xl shadow">
+          <span>Python essential-Cisco</span>
+          <a href="PythonEssentials.pdf" target="_blank" class="bg-blue-600 text-white text-sm px-3 py-1 rounded-full hover:bg-pink-600 transition">
+            View Certificate
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </section>
+
+  <!-- Qualifications -->
+  <section id="qualifications" class="py-16 bg-faint-blue">
+    <div class="max-w-5xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold mb-8 text-soft-blue text-center"><i class="fas fa-university"></i>Qualifications</h3>
+      <div class="relative">
+        <!-- Timeline -->
+        <div class="absolute left-0 w-1 bg-gradient-to-b from-blue-300 to-indigo-300 h-full"></div>
+        <div class="space-y-8">
+          <!-- Qualification 1 -->
+          <div class="flex items-center space-x-6 timeline-entry">
+            <div class="bg-white text-blue-600 p-4 rounded-full shadow-lg">
+              <i class="fas fa-graduation-cap text-2xl"></i>
+            </div>
+            <div class="flex-1">
+              <h4 class="text-xl font-semibold text-soft-blue">Software Engineering Student</h4>
+              <p class="text-soft-gray">MIT Academy of Engineering, Pune</p>
+              <span class="text-soft-gray text-sm">2024 - 2028</span>
+            </div>
+          </div>
+          
+          <!-- Qualification 2 -->
+          <div class="flex items-center space-x-6 timeline-entry">
+            <div class="bg-white text-blue-600 p-4 rounded-full shadow-lg">
+              <i class="fas fa-cogs text-2xl"></i>
+            </div>
+            <div class="flex-1">
+              <h4 class="text-xl font-semibold text-soft-blue">Higher Secondary Certificate</h4>
+              <p class="text-soft-gray">LTMPJC Malegaon</p>
+              <span class="text-soft-gray text-sm">2023-2024</span>
+            </div>
+          </div>
+
+          <!-- Qualification 3 -->
+          <div class="flex items-center space-x-6 timeline-entry">
+            <div class="bg-white text-blue-600 p-4 rounded-full shadow-lg">
+              <i class="fas fa-code text-2xl"></i>
+            </div>
+            <div class="flex-1">
+              <h4 class="text-xl font-semibold text-soft-blue">Secondary School Certificate</h4>
+              <p class="text-soft-gray">SPMH School Malegaon </p>
+              <span class="text-soft-gray text-sm">2021-2022</span>
+            </div>
+          </div>
+
+          <!-- Qualification 4 -->
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-semibold mb-6 text-blue-500"><i class="fas fa-paper-plane mr-2"></i>Contact Me</h3>
+      <p class="mb-4 text-gray-600">I'm always open to collaborating or just having a tech chat!</p>
+      <div class="space-x-4">
+        <a href="mailto:kadamdurgaeknath@gmail.com" class="text-blue-400 hover:underline"><i class="fas fa-envelope"></i>Email</a>
+        <a href="tel:+919356341314" class="text-blue-400 hover:underline">
+          <i class="fas fa-phone-alt mr-2"></i>Contact No</a>
+        <a href="https://www.linkedin.com/in/durga-eknath-kadam-554295327" target="_blank" class="text-blue-400 hover:underline"><i class="fab fa-linkedin"></i>LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-white border-t border-gray-200">
+    <p class="text-gray-500">&copy; 2025 Durga Kadam. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
